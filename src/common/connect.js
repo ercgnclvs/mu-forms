@@ -112,7 +112,7 @@ export default vdom => {
 					value   : status.data[name] || '', 
 					status,
 					onChange,
-					...props,
+					...this.props,
 				});
 			}
 		}
